@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  //border: 1px solid red;
 }
 :root {
   --light-1: #F0F0FA;
@@ -119,6 +120,7 @@ main {
 section {
   width: 100%;
   height: 100vh;
+  border-bottom: 1px solid red;
 }
 
 /* --- NAVBAR --- */
@@ -146,4 +148,29 @@ section {
 }
 #navbar a:hover {
   color: var(--brand);
+}
+
+/* --- WELCOME SECTION --- */
+#welcome-section {
+  display: flex;
+  align-items: center;
+}
+.presentation-card {
+  position: absolute;
+  //top: 50%;
+  right: 5vw;
+  max-width: 400px;
+  height: auto;
+  padding: 40px 20px;
+  border: 1px solid var(--dark-4);
+  border-radius: 4px;
+  background-color: rgba(24, 24, 37, 0.8);
+}
+.presentation-card h1 {
+  color: var(--brand);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.presentation-card p {
+  text-align: justify;
 }

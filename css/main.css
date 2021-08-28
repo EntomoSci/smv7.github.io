@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+}
+@font-face {
+  font-family: "Prompt-Light";
+  font-weight: 200;
+  src: url("../fonts/Prompt-Light.ttf");
+}
+@font-face {
+  font-family: "Prompt-Regular";
+  font-weight: 300;
+  src: url("../fonts/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "Prompt-Medium";
+  font-weight: 400;
+  src: url("../fonts/Prompt-Medium.ttf");
+}
+h1 {
+  font-family: "Prompt-Light";
+  font-size: 106px;
+  letter-spacing: -1.5px;
+  color: var(--primary-color);
+}
+h2 {
+  font-family: "Prompt-Light";
+  font-size: 66px;
+  letter-spacing: -0.5px;
+  color: var(--primary-color);
+}
+h3 {
+  font-family: "Prompt-Regular";
+  font-size: 53px;
+  letter-spacing: 0px;
+  color: var(--primary-color);
+}
+h4 {
+  font-family: "Prompt-Regular";
+  font-size: 38px;
+  letter-spacing: 0.25px;
+  color: var(--primary-color);
+}
+h5 {
+  font-family: "Prompt-Regular";
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: var(--primary-color);
+}
+h6 {
+  font-family: "Prompt-Medium";
+  font-size: 22px;
+  letter-spacing: 0.15px;
+  color: var(--primary-color);
+}
+.subtitle-1 {
+  font-family: "Prompt-Regular";
+  font-size: 18px;
+  letter-spacing: 0.15px;
+  color: var(--primary-color);
+}
+.subtitle-2 {
+  font-family: "Prompt-Medium";
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  color: var(--primary-color);
+}
+.body-1 {
+  font-family: "Prompt-Regular";
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+.body-2 {
+  font-family: "Prompt-Regular";
+  font-size: 15px;
+  letter-spacing: 0.25px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+.button {
+  font-family: "Prompt-Medium";
+  font-size: 15px;
+  letter-spacing: 1.25px;
+}
+.caption {
+  font-family: "Prompt-Regular";
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+.overline {
+  font-family: "Prompt-Regular";
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}

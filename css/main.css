@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: ;
-  --secondary-color: ;
+  --light-1: #F0F0FA;
+  --light-2: #E0E0F5;
+  --light-3: #D1D1F0;
+  --light-4: #C1C1EB;
+  --dark-1: #181825;
+  --dark-2: #202031;
+  --dark-3: #28289E;
+  --dark-4: #30304B;
+  --brand: #6CDF94;
 }
 @font-face {
   font-family: "Prompt-Light";
@@ -26,63 +33,63 @@ h1 {
   font-family: "Prompt-Light";
   font-size: 106px;
   letter-spacing: -1.5px;
-  color: var(--primary-color);
+  color: var(--light-4);
 }
 h2 {
   font-family: "Prompt-Light";
   font-size: 66px;
   letter-spacing: -0.5px;
-  color: var(--primary-color);
+  color: var(--light-4);
 }
 h3 {
   font-family: "Prompt-Regular";
   font-size: 53px;
   letter-spacing: 0px;
-  color: var(--primary-color);
+  color: var(--light-3);
 }
 h4 {
   font-family: "Prompt-Regular";
   font-size: 38px;
   letter-spacing: 0.25px;
-  color: var(--primary-color);
+  color: var(--light-3);
 }
 h5 {
   font-family: "Prompt-Regular";
   font-size: 27px;
   letter-spacing: 0px;
-  color: var(--primary-color);
+  color: var(--light-2);
 }
 h6 {
   font-family: "Prompt-Medium";
   font-size: 22px;
   letter-spacing: 0.15px;
-  color: var(--primary-color);
+  color: var(--light-2);
 }
 .subtitle-1 {
   font-family: "Prompt-Regular";
   font-size: 18px;
   letter-spacing: 0.15px;
-  color: var(--primary-color);
+  color: var(--light-1);
 }
 .subtitle-2 {
   font-family: "Prompt-Medium";
   font-size: 15px;
   letter-spacing: 0.1px;
-  color: var(--primary-color);
+  color: var(--light-1);
 }
 .body-1 {
   font-family: "Prompt-Regular";
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.5;
-  color: var(--secondary-color);
+  color: var(--light-1);
 }
 .body-2 {
   font-family: "Prompt-Regular";
   font-size: 15px;
   letter-spacing: 0.25px;
   line-height: 1.5;
-  color: var(--secondary-color);
+  color: var(--light-1);
 }
 .button {
   font-family: "Prompt-Medium";
@@ -93,9 +100,11 @@ h6 {
   font-family: "Prompt-Regular";
   font-size: 13px;
   letter-spacing: 0.4px;
+  color: var(--light-1);
 }
 .overline {
   font-family: "Prompt-Regular";
   font-size: 11px;
   letter-spacing: 1.5px;
+  color: var(--light-1);
 }

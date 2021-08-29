@@ -11,7 +11,7 @@
   --light-4: #C1C1EB;
   --dark-1: #181825;
   --dark-2: #202031;
-  --dark-3: #28289E;
+  --dark-3: #28283E;
   --dark-4: #30304B;
   --brand: #6CDF94;
 }
@@ -118,8 +118,6 @@ main {
   top: 60px;
 }
 section {
-  width: 100%;
-  height: 100vh;
   border-bottom: 1px solid red;
 }
 
@@ -154,6 +152,8 @@ section {
 #welcome-section {
   display: flex;
   align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 .presentation-card {
   position: absolute;
@@ -173,4 +173,51 @@ section {
 }
 .presentation-card p {
   text-align: justify;
+}
+
+/* --- PROJECTS SECTION --- */
+#projects {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+.projects-div {
+  max-width: 800px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  //border: 1px solid red;
+}
+.projects-div a {
+  text-decoration: none;
+}
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+  background-color: var(--dark-2);
+  border: 1px solid var(--dark-4);
+  border-radius: 4px;
+}
+.project-tile:hover {
+  background-color: var(--dark-3);
+}
+.project-date {
+  color: var(--dark-4);
+}
+.project-name {
+  color: var(--dark-4);
+  text-align: center;
+}
+
+/* --- CONTACT SECTION --- */
+#contact {
+  width: 100%;
+  height: 100vh;
 }
